@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import csv
-import email.mime.text
+
 # Read in the csv
 df = pd.read_csv("./Regional_Mil_and_Civ_Review.csv")
 who_df = pd.read_csv("./dist_foa_coco.csv")
